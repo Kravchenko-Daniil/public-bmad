@@ -66,6 +66,7 @@ coverage/
 _bmad-output/
 _bmad_output/
 _bmad/
+.agents/
 
 # Archives / temporary files
 *.zip
