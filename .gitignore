@@ -1,0 +1,79 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# Logs and runtime artifacts
+*.log
+*.out
+*.err
+*.pid
+*.pid.lock
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.eggs/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Node / frontend
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.next/
+.nuxt/
+dist/
+build/
+coverage/
+
+# BMAD generated outputs
+_bmad-output/
+_bmad/
+
+# Archives / temporary files
+*.zip
+*.tar
+*.gz
+*.7z
+*.tmp
+*.temp
+
+# Optional local notes and backups
+*.bak
+*.orig
